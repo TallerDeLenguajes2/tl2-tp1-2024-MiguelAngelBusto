@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yLfxaE2M5yD8dLFPHVmGGQvEJGOcgBanWL+bKK0zrN1EHkPsU6GeahToe7/6KA1QjDFkf+oE4BqLIth3Kz+/0w==",
+  "dgSpecHash": "WtSBKGSvpk2VIfZhISDDwCs+4eHyYUtDOHFEjRfpY/re4hOWpM4kQCeyOox4q4MJH1Jvwd/8AtG+HGCcrlHLGA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\Taller TP1\\Taller TP1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumno\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

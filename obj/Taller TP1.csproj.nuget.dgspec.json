@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\Taller TP1\\Taller TP1.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\Taller TP1\\Taller TP1.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\Taller TP1\\Taller TP1.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
         "projectName": "Taller TP1",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\Taller TP1\\Taller TP1.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\Taller TP1\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
