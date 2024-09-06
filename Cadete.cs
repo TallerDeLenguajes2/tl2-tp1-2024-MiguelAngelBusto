@@ -5,6 +5,17 @@ public class Cadete {
     int numero;
     List<Pedidos> pedidos;
 
+    public Cadete (){
+        
+    }
+    public Cadete(int id, string nombre, string direccion, int numero)
+    {
+        this.id = id;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.numero = numero;
+    }
+
     public Cadete(int id, string nombre, string direccion, int numero, List<Pedidos> pedidos)
     {
         this.id = id;
