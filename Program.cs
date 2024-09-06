@@ -40,50 +40,16 @@ class Program
         Console.WriteLine("Archivo CSV creado y escrito con éxito.");
 
         // Leer y mostrar el archivo CSV
-        /*List<Cadete> loadedCadetes = ReadAndDisplayCSV(filePath);
+        List<Cadete> loadedCadetes = ManejoCSV.ReadAndDisplayCSV(filePath);
 
         // Mostrar los cadetes cargados desde el archivo CSV
         Console.WriteLine("\nCadetes cargados desde el archivo CSV:");
-        foreach (var cadete in loadedCadetes)
+        foreach (Cadete cadete in loadedCadetes)
         {
-            Console.WriteLine($"Nombre: {cadete.Nombre}, Edad: {cadete.Edad}, Cargo: {cadete.Cargo}");
-        }*/
+            Console.WriteLine(cadete.Nombre);
+            Console.WriteLine($"Id: {cadete.Id}, Nombre: {cadete.Nombre}, Direccion: {cadete.Direccion}, Telefono: {cadete.Numero}");
+        }
     }
 
 }
     // Método para leer el archivo CSV y cargar los datos en una lista de Cadetes
-    /*static List<Cadete> ReadAndDisplayCSV(string filePath)
-    {
-        List<Cadete> cadetes = new List<Cadete>();
-
-        // Leer el archivo CSV
-        string[] lines = File.ReadAllLines(filePath);
-
-        // Mostrar el contenido del archivo CSV
-        foreach (string line in lines)
-        {
-            Console.WriteLine(line);
-        }
-
-        // Procesar el contenido del archivo CSV (excepto la cabecera)
-        for (int i = 1; i < lines.Length; i++)
-        {
-            string[] values = lines[i].Split(',');
-
-            // Asegúrate de que el formato del CSV es correcto
-            if (values.Length == 3)
-            {
-                Cadete cadete = new Cadete
-                {
-                    Nombre = values[0],
-                    Edad = int.Parse(values[1]),
-                    Cargo = values[2]
-                };
-
-                cadetes.Add(cadete);
-            }
-        }
-
-        return cadetes;
-    }
-}*/

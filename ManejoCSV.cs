@@ -20,6 +20,41 @@ public static class ManejoCSV{
         // Escribir todo el contenido en el archivo CSV
         File.WriteAllText(filePath, sb.ToString());
     }
+
+
+public static List<Cadete> ReadAndDisplayCSV(string filePath)
+    {
+        List<Cadete> cadetes = new List<Cadete>();
+
+        // Leer el archivo CSV
+        string[] lines = File.ReadAllLines(filePath);
+
+        // Mostrar el contenido del archivo CSV
+        foreach (string line in lines)
+        {
+            Console.WriteLine(line);
+        }
+
+        // Procesar el contenido del archivo CSV (excepto la cabecera)
+        for (int i = 1; i < lines.Length; i++)
+        {
+            string[] values = lines[i].Split(',');
+
+            // Asegúrate de que el formato del CSV es correcto
+            if (values.Length == 3)
+            {
+                Cadete cadete = new Cadete
+                {
+                    Id = int.Parse(values[0]),
+                    Nombre = values[1],
+                    Direccion = values[2],
+                    Numero = int.Parse(values[3])
+                };
+
+                cadetes.Add(cadete);
+            }
+        }
+
+        return cadetes;
+    }
 }
-
-
