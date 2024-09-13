@@ -14,6 +14,7 @@ public class Cadete {
         this.nombre = nombre;
         this.direccion = direccion;
         this.numero = numero;
+        this.pedidos = new List<Pedidos>();
     }
 
     public Cadete(int id, string nombre, string direccion, int numero, List<Pedidos> pedidos)

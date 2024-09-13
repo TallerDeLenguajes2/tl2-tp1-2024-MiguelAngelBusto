@@ -1,6 +1,6 @@
 public class  Pedidos{
 
-    int numero;
+    double numero;
     string observaciones;
     Cliente cliente;
     bool estado;
@@ -13,7 +13,7 @@ public class  Pedidos{
         this.estado = estado;
     }
 
-    public int Numero { get => numero; set => numero = value; }
+    public double Numero { get => numero; set => numero = value; }
     public string Observaciones { get => observaciones; set => observaciones = value; }
     public Cliente Cliente { get => cliente; set => cliente = value; }
     public bool Estado { get => estado; set => estado = value; }

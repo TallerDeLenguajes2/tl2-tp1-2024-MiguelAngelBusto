@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj": {}
+    "C:\\Users\\Alumno\\Desktop\\Nueva carpeta (2)\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj": {
+    "C:\\Users\\Alumno\\Desktop\\Nueva carpeta (2)\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
+        "projectUniqueName": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta (2)\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
         "projectName": "Taller TP1",
-        "projectPath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
+        "projectPath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta (2)\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
         "packagesPath": "C:\\Users\\Alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\obj\\",
+        "outputPath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta (2)\\tl2-tp1-2024-MiguelAngelBusto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",

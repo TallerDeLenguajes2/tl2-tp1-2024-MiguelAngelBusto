@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WtSBKGSvpk2VIfZhISDDwCs+4eHyYUtDOHFEjRfpY/re4hOWpM4kQCeyOox4q4MJH1Jvwd/8AtG+HGCcrlHLGA==",
+  "dgSpecHash": "/j4SI06mDdeqNCCeMfNlFYFTcOfzFMQszkjjUGTt3gCoqVeyN4czLoE11aKL2ISIXVgFi59z3danP0In3tzwLA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
+  "projectFilePath": "C:\\Users\\Alumno\\Desktop\\Nueva carpeta (2)\\tl2-tp1-2024-MiguelAngelBusto\\Taller TP1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alumno\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
   ],

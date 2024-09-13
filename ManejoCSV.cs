@@ -9,7 +9,7 @@ public static class ManejoCSV{
         StringBuilder sb = new StringBuilder();
         
         // Escribir la cabecera
-        sb.AppendLine("Id,Nombre,Direccion,Telefono");
+        //sb.AppendLine("Id,Nombre,Direccion,Telefono");
 
         // Escribir los datos de cada cadete
         foreach (var cadete in cadetes)
@@ -36,20 +36,14 @@ public static List<Cadete> ReadAndDisplayCSV(string filePath)
         }
 
         // Procesar el contenido del archivo CSV (excepto la cabecera)
-        for (int i = 1; i < lines.Length; i++)
+        for (int i = 0; i < lines.Length; i++)
         {
             string[] values = lines[i].Split(',');
 
             // Asegúrate de que el formato del CSV es correcto
-            if (values.Length == 3)
+            if (values.Length == 4)
             {
-                Cadete cadete = new Cadete
-                {
-                    Id = int.Parse(values[0]),
-                    Nombre = values[1],
-                    Direccion = values[2],
-                    Numero = int.Parse(values[3])
-                };
+                Cadete cadete = new Cadete(int.Parse(values[0]),values[1],values[2],int.Parse(values[3]));
 
                 cadetes.Add(cadete);
             }
